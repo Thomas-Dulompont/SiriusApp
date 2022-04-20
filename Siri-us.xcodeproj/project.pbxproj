@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D1FEAFA27EC6464008C5AC9 /* ProfilPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FEAF927EC6464008C5AC9 /* ProfilPage.swift */; };
+		4D1FEB1E27EE1573008C5AC9 /* FaqPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FEB1D27EE1573008C5AC9 /* FaqPage.swift */; };
+		4DC564E227F1B71B00EBEF2D /* WebsiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC564E127F1B71B00EBEF2D /* WebsiteView.swift */; };
+		AA0133A027EB4CDE00734D61 /* DetailQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01339F27EB4CDE00734D61 /* DetailQuiz.swift */; };
+		AA0133A227EB6A7000734D61 /* QuestionQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0133A127EB6A7000734D61 /* QuestionQuiz.swift */; };
+		AA0133A627ECA3CE00734D61 /* Univers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0133A527ECA3CE00734D61 /* Univers.swift */; };
+		AA0133A827ECA75600734D61 /* ResultatQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0133A727ECA75600734D61 /* ResultatQuiz.swift */; };
+		AA0133AA27ECC45C00734D61 /* EditProfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0133A927ECC45C00734D61 /* EditProfil.swift */; };
+		AA1A1CFD27E9FAE300227E75 /* SpaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A1CFC27E9FAE300227E75 /* SpaceApp.swift */; };
+		AA1A1CFF27E9FAE300227E75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A1CFE27E9FAE300227E75 /* ContentView.swift */; };
+		AA1A1D0127E9FAE500227E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1A1D0027E9FAE500227E75 /* Assets.xcassets */; };
+		AA1A1D0427E9FAE500227E75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1A1D0327E9FAE500227E75 /* Preview Assets.xcassets */; };
+		AA1A1D0B27E9FB1F00227E75 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A1D0A27E9FB1F00227E75 /* Models.swift */; };
+		AA1A1D0D27E9FC8200227E75 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A1D0C27E9FC8200227E75 /* Database.swift */; };
+		AA1A1D1127EA0AC300227E75 /* ListQuizz.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A1D1027EA0AC300227E75 /* ListQuizz.swift */; };
+		AA23C63F27F1BB8B007E5B1A /* buo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA23C63E27F1BB8B007E5B1A /* buo.swift */; };
+		AA23C64627F2F26D007E5B1A /* black-helicopters.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA23C64527F2F26D007E5B1A /* black-helicopters.mp3 */; };
+		AA23C64A27F2F282007E5B1A /* new-order-blue-monday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA23C64927F2F282007E5B1A /* new-order-blue-monday.mp3 */; };
+		AA23C64C27F2F28D007E5B1A /* la-matiere-noire-est-elle-la-cle-de-lunivers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA23C64B27F2F28D007E5B1A /* la-matiere-noire-est-elle-la-cle-de-lunivers.mp3 */; };
+		AA23C64E27F2F29A007E5B1A /* objectif-mars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA23C64D27F2F299007E5B1A /* objectif-mars.mp3 */; };
+		AA23C65227F33CCA007E5B1A /* QuestionSuiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA23C65127F33CCA007E5B1A /* QuestionSuiv.swift */; };
+		AA23C65427F34829007E5B1A /* OL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA23C65327F34829007E5B1A /* OL.swift */; };
+		AA23C65627F3A296007E5B1A /* janis-joplin-kozmic-blues.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA23C65527F3A296007E5B1A /* janis-joplin-kozmic-blues.mp3 */; };
+		AA23C65827F3A29C007E5B1A /* the-architect-les-pensees.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA23C65727F3A29C007E5B1A /* the-architect-les-pensees.mp3 */; };
+		AA23C65A27F3A2A5007E5B1A /* the-roots-you-got-me-ft-erykah-badu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA23C65927F3A2A5007E5B1A /* the-roots-you-got-me-ft-erykah-badu.mp3 */; };
+		AA23C65C27F3A2AC007E5B1A /* sebastien-tellier-la-ritournelle-official-audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA23C65B27F3A2AC007E5B1A /* sebastien-tellier-la-ritournelle-official-audio.mp3 */; };
+		AA23C65E27F44848007E5B1A /* DetailsLocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA23C65D27F44848007E5B1A /* DetailsLocationsView.swift */; };
+		AA823F5127ECFB6500CAE93D /* PodcastsLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA823F5027ECFB6500CAE93D /* PodcastsLists.swift */; };
+		AA823F5327ED0C5D00CAE93D /* PlayPosdcats.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA823F5227ED0C5D00CAE93D /* PlayPosdcats.swift */; };
+		AA823F5727EDC35C00CAE93D /* ActusHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA823F5627EDC35C00CAE93D /* ActusHomeView.swift */; };
+		AA823F5927EDC3B900CAE93D /* DetailsArticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA823F5827EDC3B900CAE93D /* DetailsArticlesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D1FEAF927EC6464008C5AC9 /* ProfilPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilPage.swift; sourceTree = "<group>"; };
+		4D1FEB1D27EE1573008C5AC9 /* FaqPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqPage.swift; sourceTree = "<group>"; };
+		4DC564E127F1B71B00EBEF2D /* WebsiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteView.swift; sourceTree = "<group>"; };
+		AA01339F27EB4CDE00734D61 /* DetailQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailQuiz.swift; sourceTree = "<group>"; };
+		AA0133A127EB6A7000734D61 /* QuestionQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionQuiz.swift; sourceTree = "<group>"; };
+		AA0133A527ECA3CE00734D61 /* Univers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Univers.swift; sourceTree = "<group>"; };
+		AA0133A727ECA75600734D61 /* ResultatQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultatQuiz.swift; sourceTree = "<group>"; };
+		AA0133A927ECC45C00734D61 /* EditProfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfil.swift; sourceTree = "<group>"; };
+		AA1A1CF927E9FAE300227E75 /* Siri-us.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Siri-us.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1A1CFC27E9FAE300227E75 /* SpaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceApp.swift; sourceTree = "<group>"; };
+		AA1A1CFE27E9FAE300227E75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA1A1D0027E9FAE500227E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA1A1D0327E9FAE500227E75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA1A1D0A27E9FB1F00227E75 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AA1A1D0C27E9FC8200227E75 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		AA1A1D1027EA0AC300227E75 /* ListQuizz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListQuizz.swift; sourceTree = "<group>"; };
+		AA23C63E27F1BB8B007E5B1A /* buo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buo.swift; sourceTree = "<group>"; };
+		AA23C64227F2F204007E5B1A /* Introduction.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Introduction.mp3; sourceTree = "<group>"; };
+		AA23C64327F2F23C007E5B1A /* Univers_Steven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Univers_Steven.mp3; sourceTree = "<group>"; };
+		AA23C64427F2F242007E5B1A /* Introduction.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Introduction.mp3; sourceTree = "<group>"; };
+		AA23C64527F2F26D007E5B1A /* black-helicopters.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "black-helicopters.mp3"; path = "../../../black-helicopters.mp3"; sourceTree = "<group>"; };
+		AA23C64927F2F282007E5B1A /* new-order-blue-monday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "new-order-blue-monday.mp3"; path = "../../../new-order-blue-monday.mp3"; sourceTree = "<group>"; };
+		AA23C64B27F2F28D007E5B1A /* la-matiere-noire-est-elle-la-cle-de-lunivers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "la-matiere-noire-est-elle-la-cle-de-lunivers.mp3"; path = "../../../la-matiere-noire-est-elle-la-cle-de-lunivers.mp3"; sourceTree = "<group>"; };
+		AA23C64D27F2F299007E5B1A /* objectif-mars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "objectif-mars.mp3"; path = "../../../objectif-mars.mp3"; sourceTree = "<group>"; };
+		AA23C65127F33CCA007E5B1A /* QuestionSuiv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionSuiv.swift; sourceTree = "<group>"; };
+		AA23C65327F34829007E5B1A /* OL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OL.swift; sourceTree = "<group>"; };
+		AA23C65527F3A296007E5B1A /* janis-joplin-kozmic-blues.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "janis-joplin-kozmic-blues.mp3"; path = "../../../janis-joplin-kozmic-blues.mp3"; sourceTree = "<group>"; };
+		AA23C65727F3A29C007E5B1A /* the-architect-les-pensees.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "the-architect-les-pensees.mp3"; path = "../../../the-architect-les-pensees.mp3"; sourceTree = "<group>"; };
+		AA23C65927F3A2A5007E5B1A /* the-roots-you-got-me-ft-erykah-badu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "the-roots-you-got-me-ft-erykah-badu.mp3"; path = "../../../the-roots-you-got-me-ft-erykah-badu.mp3"; sourceTree = "<group>"; };
+		AA23C65B27F3A2AC007E5B1A /* sebastien-tellier-la-ritournelle-official-audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sebastien-tellier-la-ritournelle-official-audio.mp3"; path = "../../../sebastien-tellier-la-ritournelle-official-audio.mp3"; sourceTree = "<group>"; };
+		AA23C65D27F44848007E5B1A /* DetailsLocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsLocationsView.swift; sourceTree = "<group>"; };
+		AA23C65F27F45440007E5B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AA823F5027ECFB6500CAE93D /* PodcastsLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastsLists.swift; sourceTree = "<group>"; };
+		AA823F5227ED0C5D00CAE93D /* PlayPosdcats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPosdcats.swift; sourceTree = "<group>"; };
+		AA823F5627EDC35C00CAE93D /* ActusHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActusHomeView.swift; sourceTree = "<group>"; };
+		AA823F5827EDC3B900CAE93D /* DetailsArticlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsArticlesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1A1CF627E9FAE300227E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D1FEAFB27EC64B2008C5AC9 /* SCREENS */ = {
+			isa = PBXGroup;
+			children = (
+				AA23C65D27F44848007E5B1A /* DetailsLocationsView.swift */,
+				AA823F5827EDC3B900CAE93D /* DetailsArticlesView.swift */,
+				AA823F5227ED0C5D00CAE93D /* PlayPosdcats.swift */,
+				AA823F5627EDC35C00CAE93D /* ActusHomeView.swift */,
+				AA23C63E27F1BB8B007E5B1A /* buo.swift */,
+				AA823F5027ECFB6500CAE93D /* PodcastsLists.swift */,
+				AA0133A727ECA75600734D61 /* ResultatQuiz.swift */,
+				AA0133A527ECA3CE00734D61 /* Univers.swift */,
+				4D1FEAF927EC6464008C5AC9 /* ProfilPage.swift */,
+				4D1FEB1D27EE1573008C5AC9 /* FaqPage.swift */,
+				AA0133A927ECC45C00734D61 /* EditProfil.swift */,
+				AA1A1D1027EA0AC300227E75 /* ListQuizz.swift */,
+				AA0133A127EB6A7000734D61 /* QuestionQuiz.swift */,
+				AA01339F27EB4CDE00734D61 /* DetailQuiz.swift */,
+				AA23C65127F33CCA007E5B1A /* QuestionSuiv.swift */,
+				AA23C65327F34829007E5B1A /* OL.swift */,
+				4DC564E127F1B71B00EBEF2D /* WebsiteView.swift */,
+				AA23C64427F2F242007E5B1A /* Introduction.mp3 */,
+				AA23C64327F2F23C007E5B1A /* Univers_Steven.mp3 */,
+				AA23C64B27F2F28D007E5B1A /* la-matiere-noire-est-elle-la-cle-de-lunivers.mp3 */,
+				AA23C64527F2F26D007E5B1A /* black-helicopters.mp3 */,
+				AA23C64D27F2F299007E5B1A /* objectif-mars.mp3 */,
+				AA23C65B27F3A2AC007E5B1A /* sebastien-tellier-la-ritournelle-official-audio.mp3 */,
+				AA23C64927F2F282007E5B1A /* new-order-blue-monday.mp3 */,
+				AA23C65927F3A2A5007E5B1A /* the-roots-you-got-me-ft-erykah-badu.mp3 */,
+				AA23C65727F3A29C007E5B1A /* the-architect-les-pensees.mp3 */,
+				AA23C65527F3A296007E5B1A /* janis-joplin-kozmic-blues.mp3 */,
+			);
+			path = SCREENS;
+			sourceTree = "<group>";
+		};
+		4D1FEAFC27EC64F8008C5AC9 /* DATA */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A1D0C27E9FC8200227E75 /* Database.swift */,
+				AA1A1D0A27E9FB1F00227E75 /* Models.swift */,
+			);
+			path = DATA;
+			sourceTree = "<group>";
+		};
+		AA1A1CF027E9FAE300227E75 = {
+			isa = PBXGroup;
+			children = (
+				AA1A1CFB27E9FAE300227E75 /* Space */,
+				AA1A1CFA27E9FAE300227E75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA1A1CFA27E9FAE300227E75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A1CF927E9FAE300227E75 /* Siri-us.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA1A1CFB27E9FAE300227E75 /* Space */ = {
+			isa = PBXGroup;
+			children = (
+				AA23C65F27F45440007E5B1A /* Info.plist */,
+				AA1A1CFE27E9FAE300227E75 /* ContentView.swift */,
+				AA1A1CFC27E9FAE300227E75 /* SpaceApp.swift */,
+				4D1FEAFC27EC64F8008C5AC9 /* DATA */,
+				4D1FEAFB27EC64B2008C5AC9 /* SCREENS */,
+				AA1A1D0027E9FAE500227E75 /* Assets.xcassets */,
+				AA1A1D0227E9FAE500227E75 /* Preview Content */,
+			);
+			path = Space;
+			sourceTree = "<group>";
+		};
+		AA1A1D0227E9FAE500227E75 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA23C64227F2F204007E5B1A /* Introduction.mp3 */,
+				AA1A1D0327E9FAE500227E75 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1A1CF827E9FAE300227E75 /* Siri-us */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1A1D0727E9FAE500227E75 /* Build configuration list for PBXNativeTarget "Siri-us" */;
+			buildPhases = (
+				AA1A1CF527E9FAE300227E75 /* Sources */,
+				AA1A1CF627E9FAE300227E75 /* Frameworks */,
+				AA1A1CF727E9FAE300227E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Siri-us";
+			productName = Space;
+			productReference = AA1A1CF927E9FAE300227E75 /* Siri-us.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1A1CF127E9FAE300227E75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AA1A1CF827E9FAE300227E75 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AA1A1CF427E9FAE300227E75 /* Build configuration list for PBXProject "Siri-us" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA1A1CF027E9FAE300227E75;
+			productRefGroup = AA1A1CFA27E9FAE300227E75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1A1CF827E9FAE300227E75 /* Siri-us */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1A1CF727E9FAE300227E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA23C64A27F2F282007E5B1A /* new-order-blue-monday.mp3 in Resources */,
+				AA23C64E27F2F29A007E5B1A /* objectif-mars.mp3 in Resources */,
+				AA23C64627F2F26D007E5B1A /* black-helicopters.mp3 in Resources */,
+				AA23C65A27F3A2A5007E5B1A /* the-roots-you-got-me-ft-erykah-badu.mp3 in Resources */,
+				AA23C65C27F3A2AC007E5B1A /* sebastien-tellier-la-ritournelle-official-audio.mp3 in Resources */,
+				AA23C65827F3A29C007E5B1A /* the-architect-les-pensees.mp3 in Resources */,
+				AA23C65627F3A296007E5B1A /* janis-joplin-kozmic-blues.mp3 in Resources */,
+				AA23C64C27F2F28D007E5B1A /* la-matiere-noire-est-elle-la-cle-de-lunivers.mp3 in Resources */,
+				AA1A1D0427E9FAE500227E75 /* Preview Assets.xcassets in Resources */,
+				AA1A1D0127E9FAE500227E75 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1A1CF527E9FAE300227E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1A1D0B27E9FB1F00227E75 /* Models.swift in Sources */,
+				AA823F5327ED0C5D00CAE93D /* PlayPosdcats.swift in Sources */,
+				AA23C63F27F1BB8B007E5B1A /* buo.swift in Sources */,
+				AA1A1CFF27E9FAE300227E75 /* ContentView.swift in Sources */,
+				AA1A1D1127EA0AC300227E75 /* ListQuizz.swift in Sources */,
+				AA0133A227EB6A7000734D61 /* QuestionQuiz.swift in Sources */,
+				AA0133AA27ECC45C00734D61 /* EditProfil.swift in Sources */,
+				4D1FEAFA27EC6464008C5AC9 /* ProfilPage.swift in Sources */,
+				AA23C65227F33CCA007E5B1A /* QuestionSuiv.swift in Sources */,
+				AA1A1D0D27E9FC8200227E75 /* Database.swift in Sources */,
+				4DC564E227F1B71B00EBEF2D /* WebsiteView.swift in Sources */,
+				AA823F5727EDC35C00CAE93D /* ActusHomeView.swift in Sources */,
+				AA1A1CFD27E9FAE300227E75 /* SpaceApp.swift in Sources */,
+				AA0133A827ECA75600734D61 /* ResultatQuiz.swift in Sources */,
+				AA823F5927EDC3B900CAE93D /* DetailsArticlesView.swift in Sources */,
+				AA823F5127ECFB6500CAE93D /* PodcastsLists.swift in Sources */,
+				4D1FEB1E27EE1573008C5AC9 /* FaqPage.swift in Sources */,
+				AA0133A627ECA3CE00734D61 /* Univers.swift in Sources */,
+				AA23C65427F34829007E5B1A /* OL.swift in Sources */,
+				AA0133A027EB4CDE00734D61 /* DetailQuiz.swift in Sources */,
+				AA23C65E27F44848007E5B1A /* DetailsLocationsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA1A1D0527E9FAE500227E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA1A1D0627E9FAE500227E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA1A1D0827E9FAE500227E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Space/Preview Content\"";
+				DEVELOPMENT_TEAM = 5U8TQ59B96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Space/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bonvin.Space1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA1A1D0927E9FAE500227E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Space/Preview Content\"";
+				DEVELOPMENT_TEAM = 5U8TQ59B96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Space/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bonvin.Space1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1A1CF427E9FAE300227E75 /* Build configuration list for PBXProject "Siri-us" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1A1D0527E9FAE500227E75 /* Debug */,
+				AA1A1D0627E9FAE500227E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1A1D0727E9FAE500227E75 /* Build configuration list for PBXNativeTarget "Siri-us" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1A1D0827E9FAE500227E75 /* Debug */,
+				AA1A1D0927E9FAE500227E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA1A1CF127E9FAE300227E75 /* Project object */;
+}
